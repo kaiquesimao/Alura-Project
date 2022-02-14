@@ -125,7 +125,7 @@ p {
 
 footer {
 	display: block;
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	background: url("../images/bg.jpg");
 	width: 100%;
