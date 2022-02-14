@@ -1,0 +1,174 @@
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #BBBBBB;
+	text-align: center;
+}
+
+.imagem-cabecalho {
+	text-align: center;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	left: 80px;
+	margin-right: 25px;
+}
+
+nav li {
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	padding: 4px;
+	box-sizing: border-box;
+	border-color: black;
+	border-width: 2px ;
+	border-style: groove;
+	border-radius: 4px;
+	text-align: center;
+}
+
+nav li:hover {
+	border-color: #ffffff;
+	text-decoration: underline;
+	transition: all 500ms;
+}
+
+nav li:active {
+	border-color:blue;
+	color: blue;
+	transition: all 500ms;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	transition: all 500ms;
+}
+
+nav a:hover {
+	color: #ffffff;
+	transition: all 500ms;
+}
+
+nav a:active {
+	color: blue;
+	border-color: blue;
+	transition: all 500ms;
+}
+
+.servicos {
+	text-align: center;
+}
+
+.servicos li {
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	vertical-align: top;
+	box-sizing: border-box;
+	border-color:black;
+	border-width: 3px ;
+	border-style: groove;
+	border-radius: 20px;
+	padding: 10px;
+	width: 25%;
+	word-break:normal;
+}
+
+.servicos li:hover {
+	border-color: #c79c19;
+	transition: all 1s;
+}
+
+.servicos li:hover h2 {
+	font-size: 30px;
+	text-align: center;
+	transition: all 1s;
+}
+
+.servicos h2 {
+	font-weight: bold;
+	font-size: 20px;
+	transition: all 1s;
+}
+
+.servicos li:active {
+	border-color:blue;
+}
+
+p {
+	margin: 5px;
+}
+
+.descricao-servico {
+	font-size: 18px;
+}
+
+.preco-servico {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+footer {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	background: url("../images/bg.jpg");
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+	body {
+		width: 100%;
+		height: 100%;
+	}
+
+	.imagem-cabecalho {
+		text-align: left;
+	}
+
+	nav ul {
+		position: relative;
+	}
+
+	nav li {
+		display: inline-block;
+		margin-left: 100px;
+	}
+
+	.servicos {
+		text-align: center;
+	}
+	
+	.servicos li {
+		width: auto;
+	}
+
+	footer {
+		margin: auto;
+		position: relative;
+		bottom: 0;
+	}
+}
