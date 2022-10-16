@@ -1,0 +1,186 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+	background: #BBBBBB;
+	text-align: center;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	left: 80px;
+	margin-right: 25px;
+}
+
+nav li {
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	padding: 4px;
+	box-sizing: border-box;
+	border-color: black;
+	border-width: 2px ;
+	border-style: groove;
+	border-radius: 4px;
+	text-align: center;
+}
+
+nav li:hover {
+	border-color: #ffffff;
+	text-decoration: underline;
+	transition: all 500ms;
+}
+
+nav li:active {
+	border-color:blue;
+	color: blue;
+	transition: all 500ms;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	transition: all 500ms;
+}
+
+nav a:hover {
+	color: #ffffff;
+	transition: all 500ms;
+}
+
+nav a:active {
+	color: blue;
+	border-color: blue;
+}
+
+main {
+	width: 940px;
+	margin:  0 auto;
+}
+
+form {
+	margin:  20px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 20px;
+}
+
+.input-padrao {
+	display: block;
+	position: relative;
+	padding: 5px;
+	margin: 0 0 20px;
+	width: 30%;
+}
+
+.radio {
+	cursor: pointer;
+}
+
+.checkbox {
+	margin: 20px 0;
+	cursor: pointer;
+}
+
+.enviar-form {
+	width: 40%;
+	padding: 15px 0;
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+}
+
+.enviar-form:hover {
+	background-color: orangered;
+	transition: all 1s;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+table {
+	margin: 20px 0;
+}
+
+thead {
+	background-color: rgb(185, 185, 185);
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
+footer {
+	display: block;
+	position: relative;
+	background: url("../images/bg.jpg");
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	html, body, main, header, footer{width: auto;}
+
+	.cabecalho {
+		text-align: left;
+	}
+
+	nav ul {
+		position: relative;
+	}
+
+	nav li {
+		display: inline-block;
+		margin-left: 100px;
+	}
+
+	form {
+		text-align: center;
+	}
+
+	.input-padrao {
+		display: inline;
+	}
+
+	form label, form legend {
+		font-size: 15px;
+	}
+
+	select {
+		width: 65px;
+		height: 50px;
+	}
+
+	.novidades-check {
+		margin-top: 10px;
+	}
+	
+	table {
+		display: inline-block;
+		position: relative;
+	}
+
+	.horario-funcionamento {
+		text-align: center;
+	}
+
+}
