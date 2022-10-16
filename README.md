@@ -1,6 +1,8 @@
 # Alura-Project
 The purpose of this was to learn and practice HTML5 and CSS3, design and optimization of a WEB page for mobile devices.
 
+Go to: https://kaiquesimao.github.io/Alura-Project
+
 
 ![Captura de Tela (9)](https://user-images.githubusercontent.com/66140734/153915812-60691f2c-968e-4676-9539-edd73bf8e9a3.png)
 ![Captura de Tela (10)](https://user-images.githubusercontent.com/66140734/153915817-4c74164e-3b1d-4977-beb8-9fdf184d330a.png)
